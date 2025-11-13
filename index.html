@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HydraSearch</title>
+    
+    <link rel="stylesheet" href="assets/css/style.css"> 
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+</head>
+<body>
+    
+    <header>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="information.html">Information</a></li>
+            </ul>
+        </nav>
+        <h1 class="main-title">HydraSearch</h1>
+        <h2 class="subtitle">Video Game Download Finder</h2>
+    </header>
+    
+    <main>
+        <section class="search-section">
+            <div class="search-bar">
+                <input type="text" id="buscador" class="search-input" placeholder="Search for a video game...">
+            </div>
+
+            <div id="resultados-container" class="results"></div>
+        </section>
+
+        <hr class="section-divider">
+
+        <h2 class="gallery-title">All-Time Popular</h2>
+        <section class="gallery" aria-label="Image Gallery">
+            <div class="slides" id="carousel-slides">
+                <article class="slide is-active">
+                    <p class="mensaje-inicio">Cargando juegos destacados...</p>
+                </article>
+            </div>
+
+            <button class="nav prev" aria-label="Previous">&larr;</button>
+            <button class="nav next" aria-label="Next">&rarr;</button>
+
+            <div class="dots" id="carousel-dots" role="tablist" aria-label="Navigation Dots"></div>
+        </section>
+
+        <section class="genre-sections">
+            <div class="genre-category">
+                <h3 class="genre-title">Action</h3>
+                <div class="genre-games-grid">
+                    <div class="genre-game-card"></div>
+                    <div class="genre-game-card"></div>
+                    <div class="genre-game-card"></div>
+                    <div class="genre-game-card"></div>
+                </div>
+            </div>
+
+            <div class="genre-category">
+                <h3 class="genre-title">RPG</h3>
+                <div class="genre-games-grid">
+                    <div class="genre-game-card"></div>
+                    <div class="genre-game-card"></div>
+                    <div class="genre-game-card"></div>
+                    <div class="genre-game-card"></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2025</p>
+    </footer>
+    
+    <script src="assets/js/script.js" defer></script> 
+</body>
+</html>
