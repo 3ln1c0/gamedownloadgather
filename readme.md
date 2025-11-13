@@ -1,6 +1,10 @@
 # Game Download Gather - Website
 Game Download Gather/HydraSearch is a website that combines several video game download sites into one. It works simply: you search for a game, and you can see links to download it from different sources.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0d0c389d-9ab2-4c98-b0cc-564c9026b105" width="747" />
+</p>
+
 ## 🚀 Features:
 - Modern and Responsive Design
 - Integration with the Giant Bomb API for searching
