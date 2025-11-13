@@ -7,7 +7,7 @@ Game Download Gather/HydraSearch is a website that combines several video game d
 
 ## 🚀 Features:
 - Modern and Responsive Design
-- Integration with the Giant Bomb API for searching
+- Integration with the Giant Bomb API for obtaining game info
 - Ease of use
 
 ## ❓ How to Test the Website
